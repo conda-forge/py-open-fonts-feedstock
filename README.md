@@ -5,7 +5,7 @@ Home: https://github.com/kiwi0fruit/py-open-fonts
 
 Package license: MIT AND Apache-2.0 AND OFL-1.1 AND Public-Domain AND DejaVu-Fonts
 
-Feedstock license: BSD 3-Clause
+Feedstock license: BSD-3-Clause
 
 Summary: CLI and Python interface to the open-fonts conda package that is agnostic to the fonts there.
 
