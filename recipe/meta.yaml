@@ -1,4 +1,3 @@
-{% set dep_ver = "0.5" %}
 {% set name = "py-open-fonts" %}
 {% set version = "0.6.3" %}
 # {% set dep_ver = "0.5" %}
