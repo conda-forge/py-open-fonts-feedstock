@@ -1,5 +1,5 @@
 {% set name = "py-open-fonts" %}
-{% set version = "0.5.1" %}
+{% set version = "0.6.3" %}
 # {% set dep_ver = "0.5" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: ae1a91f71c2b76d9443bfcc86e1ff0fa6217e76b3ab514b1e08f3aa2efaf0472
+  sha256: e56552e46fb8e1c95cd7af4d7761aed7ee54e7c568605cb80e9996f746a79ffb
   patches:
     - conda.patch
 
@@ -17,7 +17,7 @@ build:
   number: 0
   entry_points:
     - open-fonts-css = openfonts.cli:cli
-  script: "{{ PYTHON }} -m pip install . --no-deps -vv"
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 
 requirements:
   host:
@@ -37,10 +37,10 @@ test:
 
 about:
   home: https://github.com/kiwi0fruit/py-open-fonts
-  license: MIT AND Apache-2.0 AND OFL-1.1 AND Public-Domain AND DejaVu-Fonts
+  license: MIT AND Apache-2.0 AND OFL-1.1 AND LicenseRef-Symbola-Public-Domain AND LicenseRef-DejaVu-Fonts
   license_family: OTHER
   license_file: LICENSE
-  summary: "CLI and Python interface to the open-fonts conda package that is agnostic to the fonts there."
+  summary: CLI and Python interface to the open-fonts conda package that is agnostic to the fonts there.
   doc_url: https://github.com/kiwi0fruit/py-open-fonts
   dev_url: https://github.com/kiwi0fruit/py-open-fonts
 
