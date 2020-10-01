@@ -3,7 +3,7 @@ About py-open-fonts
 
 Home: https://github.com/kiwi0fruit/py-open-fonts
 
-Package license: MIT AND Apache-2.0 AND OFL-1.1 AND Public-Domain AND DejaVu-Fonts
+Package license: MIT AND Apache-2.0 AND OFL-1.1 AND LicenseRef-Symbola-Public-Domain AND LicenseRef-DejaVu-Fonts
 
 Feedstock license: BSD-3-Clause
 
