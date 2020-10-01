@@ -1,6 +1,6 @@
 {% set name = "py-open-fonts" %}
-{% set version = "0.6.3" %}
-# {% set dep_ver = "0.5" %}
+{% set version = "0.6.5" %}
+# {% set dep_ver = "0.6.5" %}
 
 package:
   name: {{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: e56552e46fb8e1c95cd7af4d7761aed7ee54e7c568605cb80e9996f746a79ffb
+  sha256: 8c9e06e6f40ec85a2c668d1eb6ee031dfe8ec6c1a397e5f583d72cd3afbc9bbb
   patches:
     - conda.patch
 
