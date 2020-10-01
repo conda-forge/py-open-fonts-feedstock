@@ -1,6 +1,6 @@
 {% set name = "py-open-fonts" %}
 {% set version = "0.6.5" %}
-# {% set dep_ver = "0.5" %}
+# {% set dep_ver = "0.6.5" %}
 
 package:
   name: {{ name|lower }}
