@@ -37,7 +37,7 @@ test:
 
 about:
   home: https://github.com/kiwi0fruit/py-open-fonts
-  license: MIT AND Apache-2.0 AND OFL-1.1 AND LicenseRef-Symbola-Public-Domain AND LicenseRef-DejaVu-Fonts
+  license: MIT AND Apache-2.0 AND OFL-1.1 AND CC-BY-4.0 AND LicenseRef-Symbola-Public-Domain AND LicenseRef-DejaVu-Fonts
   license_family: OTHER
   license_file: LICENSE
   summary: CLI and Python interface to the open-fonts conda package that is agnostic to the fonts there.
